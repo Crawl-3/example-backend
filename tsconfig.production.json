@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "target": "ES6",
+        "lib": ["ES7", "DOM"],
+        "module": "commonjs",
+        "rootDir": "./src",
+        // "baseUrl": "./",
+        // "paths": {},
+        "typeRoots": ["node_modules/@types"],
+        "resolveJsonModule": true,
+        "declaration": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "outDir": "./dist/production",
+        "removeComments": true,
+        "inlineSourceMap": true,
+        // "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "useUnknownInCatchVariables": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true
+    }
+}
